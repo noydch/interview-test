@@ -24,9 +24,9 @@ const routes = [
 ]
 
 const router =
-  typeof window !== "undefined"
-    ? createBrowserRouter(routes)
-    : createMemoryRouter(routes)
+    typeof window !== "undefined"
+        ? createBrowserRouter(routes)
+        : createMemoryRouter(routes)
 
 const Routes = () => {
     return <RouterProvider router={router} />

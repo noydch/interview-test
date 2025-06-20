@@ -67,7 +67,7 @@ const Navbar = ({ children }: { children: React.ReactNode }) => {
                 </div>
             </nav>
             {children}
-            <Footer/>
+            <Footer />
         </>
     )
 }
